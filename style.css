@@ -1,15 +1,107 @@
 @charset "utf-8";
 /* CSS Document */
 
+:root {
+	--color-1: #FFFFFF;
+	--color-2: #ef3832;
+	--color-3: #151515;
+}
+
+body {
+	padding: 32px;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin: 0px;
+	background-color: var(--color-3);
+}
+
+#top {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0px;
+}
+
+#top a {
+	color: var(--color-1);
+	text-decoration: none;
+	font-family: "fira-sans" , "sans-serif";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24pt;
+	padding-left: 0px;
+	padding-right: 0px;
+}
 
 
-font-family: fira-sans, sans-serif;
-font-weight: 400;
-font-style: normal;
+#top a:hover{
+	color: var(--color-2);
+}
 
+#tabs {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0px;
+	margin: 0px;
+}
 
+#tabs a {
+	padding-left: 15px;
+	padding-right: 15px;
+}
 
-font-family: fira-sans, sans-serif;
-font-weight: 700;
-font-style: normal;
+.logo {
+	display: flex;
+	justify-content: flex-start;
+}
 
+#socials {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+#socials a {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+p {
+	font-family: "fira-sans" , "sans-serif";
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14pt;
+	color: var(--color-1);
+}
+
+.title{
+	font-family: "fira-sans" , "sans-serif";
+	font-weight: 700;
+	font-style: normal;
+	font-size: 34pt;
+	color: var(--color-1);
+}
+
+.content{
+	padding-left: 80px;
+	padding-right: 80px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.content div {
+	padding-left: 0px;
+	padding-right: 80px;
+}
+
+.disclaimer p{
+	display: flex;
+	justify-content: center;
+	color: var(--color-1);
+}
