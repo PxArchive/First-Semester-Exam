@@ -105,3 +105,18 @@ p {
 	justify-content: center;
 	color: var(--color-1);
 }
+
+#sorry p {
+	color: var(--color-2);
+}
+
+@media (max-width: 1024px){
+	#tabs {display: none;}
+	#socials {display: none;}
+	.content {display: none;}
+	#sorry {display: flex;}
+}
+
+@media (min-width: 1025px){
+	#sorry {display: none;}
+}
